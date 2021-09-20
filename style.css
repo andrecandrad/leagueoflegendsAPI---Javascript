@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: #dadce7;
+}
+
+#app {
+    background: rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    padding: 1.5rem 0rem;
+    box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+form input {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #fff;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+form input::placeholder {
+    color: #fff;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    color: #63a4ff;
+    border-radius: 5rem;
+    border: 2px solid #63a4ff;
+    border-radius: 50px;
+    width: max-content;
+    font-size: 1.3rem;
+    background-color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: #63a4ff;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.nome {
+    font-size: 2rem;
+    margin-bottom: -10px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 14rem;
+    height: 14rem;
+    margin: auto;
+}
+
+main div {
+    width: 15rem;
+    height: 15rem;
+    background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+}
